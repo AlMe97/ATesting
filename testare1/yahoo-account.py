@@ -45,11 +45,11 @@ time.sleep(2)
 accountButton = driver.find_element_by_xpath("//form[@id='login-username-form']//p[@class='row sign-up-link']")
 accountButton.click()
 
-#time.sleep(1)
+time.sleep(1)
 
 #Fill account details boxes
 setAccDetails(driver)
-#time.sleep(1)
+time.sleep(1)
 
 #Submit account
 continueButton = driver.find_element_by_xpath("//html[@id='Stencil']//button[@id='reg-submit-button']")
