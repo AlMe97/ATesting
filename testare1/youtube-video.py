@@ -49,8 +49,8 @@ time.sleep(2)
 videoControlsBar_css = "#columns #primary #primary-inner #player #ytd-player .ytp-chrome-bottom .ytp-chrome-controls"
 rightBarButtons_css = videoControlsBar_css + " .ytp-right-controls button.ytp-button"
 
-# up volume - TODO
-
+# increase volume - TODO
+time.sleep(2)
 
 # change resolution - TODO: verify if working
 settingsButton_css = rightBarButtons_css + ".ytp-settings-button"
